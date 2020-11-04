@@ -11,7 +11,7 @@ const navigator = createStackNavigator(
   {
     initialRouteName: 'Login',
     defaultNavigationOptions: {
-      title: 'App'
+      title: 'Pocket Trainer'
     }
   }
 )
@@ -19,7 +19,9 @@ const navigator = createStackNavigator(
 export default createAppContainer(navigator);
 
 
-
+// CREATE TABLE users (user_id integer PRIMARY KEY AUTOINCREMENT, username varchar(25) NOT NULL, password varchar(30) NOT NULL);
+// CREATE TABLE workouts (workout_id integer PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, description TEXT NOT NULL);
+// INSERT INTO users (username, password) VALUES ('cspain2', 'test1234');
 
 
 // export default function App() {
