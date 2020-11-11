@@ -7,31 +7,31 @@ const Home = () => {
     const categories = [
         {
             name: 'Arms', muscles: [
-                { name: 'Biceps', icon: require('../../assets/MuscleIcons/biceps.png') },
-                { name: 'Triceps', icon: require('../../assets/MuscleIcons/triceps.png') },
-                { name: 'forearms', icon: require('../../assets/MuscleIcons/forearms.png') }
+                { name: 'Biceps', icon: require('../../assets/muscleIcons/biceps.png') },
+                { name: 'Triceps', icon: require('../../assets/muscleIcons/triceps.png') },
+                { name: 'forearms', icon: require('../../assets/muscleIcons/forearms.png') }
             ]
         },
         {
             name: 'Legs', muscles: [
-                { name: 'Hamstrings', icon: require('../../assets/MuscleIcons/hamstrings.png') },
-                { name: 'Quads', icon: require('../../assets/MuscleIcons/quads.png') },
-                { name: 'Calves', icon: require('../../assets/MuscleIcons/calves.png') },
-                { name: 'Glutes', icon: require('../../assets/MuscleIcons/glutes.png') }
+                { name: 'Hamstrings', icon: require('../../assets/muscleIcons/hamstrings.png') },
+                { name: 'Quads', icon: require('../../assets/muscleIcons/quads.png') },
+                { name: 'Calves', icon: require('../../assets/muscleIcons/calves.png') },
+                { name: 'Glutes', icon: require('../../assets/muscleIcons/glutes.png') }
             ]
         },
         {
             name: 'Core', muscles: [
-                { name: 'Pecs', icon: require('../../assets/MuscleIcons/pecs.png') },
-                { name: 'Obliques', icon: require('../../assets/MuscleIcons/pecs.png') },
-                { name: 'Abs', icon: require('../../assets/MuscleIcons/abs.png') }
+                { name: 'Pecs', icon: require('../../assets/muscleIcons/pecs.png') },
+                { name: 'Obliques', icon: require('../../assets/muscleIcons/pecs.png') },
+                { name: 'Abs', icon: require('../../assets/muscleIcons/abs.png') }
             ]
         },
         {
             name: 'Shoulders/Back', muscles: [
-                { name: 'Traps', icon: require('../../assets/MuscleIcons/pecs.png') },
-                { name: 'Deltoids', icon: require('../../assets/MuscleIcons/pecs.png') },
-                { name: 'Lower Back', icon: require('../../assets/MuscleIcons/pecs.png') }
+                { name: 'Traps', icon: require('../../assets/muscleIcons/pecs.png') },
+                { name: 'Deltoids', icon: require('../../assets/muscleIcons/pecs.png') },
+                { name: 'Lower Back', icon: require('../../assets/muscleIcons/pecs.png') }
             ]
         },
     ];

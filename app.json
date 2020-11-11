@@ -4,9 +4,9 @@
     "slug": "Pocket_Trainer",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/PocketTrainerLogo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/PocketTrainerLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
