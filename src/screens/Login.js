@@ -7,7 +7,8 @@ const Login = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Content>
-                <Image source={require('../images/PocketTrainerLogo.png')} />
+                <Image source={require('../../assets/PocketTrainerLogo.png')} />
+
                 <Form>
                     <Item floatingLabel style={styles.inputs}>
                         <Label>Username</Label>

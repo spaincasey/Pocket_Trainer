@@ -1,14 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image } from 'react-native';
 
 const MuscleButton = (props) => {
     return (
         <View>
             <TouchableOpacity style={styles.touchableOpacity} onPress={() => console.log(props.muscleName)}>
-                <View style={styles.button}>
-                    <Text style={styles.buttonText}>{props.muscleIcon}</Text>
-                </View>
+                <Image style={styles.button} source={props.muscleIcon} />
                 <Text style={styles.buttonText}>{props.muscleName}</Text>
             </TouchableOpacity>
         </View>
@@ -34,3 +32,5 @@ const styles = StyleSheet.create({
 });
 
 export default MuscleButton;
+
+//<Image source={require('../../assets/muscleIcons/' + props.muscleIcon)} />

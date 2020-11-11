@@ -6,33 +6,32 @@ import MuscleCategory from '../components/MuscleCategory';
 const Home = () => {
     const categories = [
         {
-            name: 'Category #1', muscles: [
-                { name: 'muscle #1', icon: "icon #1" },
-                { name: 'muscle #2', icon: "icon #2" },
-                { name: 'muscle #3', icon: "icon #3" },
-                { name: 'muscle #4', icon: "icon #4" }
+            name: 'Arms', muscles: [
+                { name: 'Biceps', icon: require('../../assets/MuscleIcons/biceps.png') },
+                { name: 'Triceps', icon: require('../../assets/MuscleIcons/triceps.png') },
+                { name: 'forearms', icon: require('../../assets/MuscleIcons/forearms.png') }
             ]
         },
         {
-            name: 'Category #2', muscles: [
-                { name: 'muscle #5', icon: "icon #5" },
-                { name: 'muscle #6', icon: "icon #6" }
+            name: 'Legs', muscles: [
+                { name: 'Hamstrings', icon: require('../../assets/MuscleIcons/hamstrings.png') },
+                { name: 'Quads', icon: require('../../assets/MuscleIcons/quads.png') },
+                { name: 'Calves', icon: require('../../assets/MuscleIcons/calves.png') },
+                { name: 'Glutes', icon: require('../../assets/MuscleIcons/glutes.png') }
             ]
         },
         {
-            name: 'Category #3', muscles: [
-                { name: 'muscle #7', icon: "icon #7" },
-                { name: 'muscle #8', icon: "icon #8" },
-                { name: 'muscle #9', icon: "icon #9" }
+            name: 'Core', muscles: [
+                { name: 'Pecs', icon: require('../../assets/MuscleIcons/pecs.png') },
+                { name: 'Obliques', icon: require('../../assets/MuscleIcons/pecs.png') },
+                { name: 'Abs', icon: require('../../assets/MuscleIcons/abs.png') }
             ]
         },
         {
-            name: 'Category #4', muscles: [
-                { name: 'muscle #10', icon: "icon #10" },
-                { name: 'muscle #11', icon: "icon #11" },
-                { name: 'muscle #12', icon: "icon #12" },
-                { name: 'muscle #13', icon: "icon #13" },
-                { name: 'muscle #14', icon: "icon #14" }
+            name: 'Shoulders/Back', muscles: [
+                { name: 'Traps', icon: require('../../assets/MuscleIcons/pecs.png') },
+                { name: 'Deltoids', icon: require('../../assets/MuscleIcons/pecs.png') },
+                { name: 'Lower Back', icon: require('../../assets/MuscleIcons/pecs.png') }
             ]
         },
     ];
