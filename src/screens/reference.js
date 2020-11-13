@@ -47,3 +47,29 @@ const styles = StyleSheet.create({
         marginVertical: 50
     }
 });
+
+<Container style={styles.container}>
+    <Content style={styles.content}>
+        <Grid style={styles.grid}>
+            <Col style={styles.column}>
+                <Image style={styles.image} source={require('../../assets/PocketTrainerLogo.png')} />
+                <Form>
+                    <Item floatingLabel style={styles.inputs}>
+                        <Label>Username</Label>
+                        <Input />
+                    </Item>
+                    <Item floatingLabel style={styles.inputs}>
+                        <Label>Password</Label>
+                        <Input />
+                    </Item>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Home')}>
+                        <Text style={styles.buttonText}>Login</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Home')}>
+                        <Text style={styles.buttonText}>Register</Text>
+                    </TouchableOpacity>
+                </Form>
+            </Col>
+        </Grid>
+    </Content>
+</Container>
