@@ -3,7 +3,6 @@ import { StyleSheet, Image, Text, TouchableOpacity } from 'react-native';
 import { Container, Form, Item, Input, Label } from 'native-base';
 
 const Login = ({ navigation }) => {
-
     return (
         <Container style={styles.container}>
             <Image style={styles.image} source={require('../../assets/PocketTrainerLogo.png')} />
